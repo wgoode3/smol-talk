@@ -1,8 +1,45 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-a {
-  color: #00B7FF;
+body {
+  font-family: Arial, sans-serif;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+form > div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+form label {
+  width: 100px;
+}
+
+form input {
+  flex: 1;
+}
+
+hr {
+  margin: 50px 0;
+  border-color: #ccc;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table tr:nth-child(odd) {
+  background-color: #f3f3f3;
+}
+
+table td, table th {
+  padding: 10px;
+  border: 1px solid #ccc;
 }
